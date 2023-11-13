@@ -1,0 +1,285 @@
+/* first page */
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+#banner
+{
+  background: linear-gradient(rgba(195, 55, 99, 0.5),rgba(29, 37, 113, 0.98)) ,url(images/salon.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.logo
+{
+  position: absolute;
+  top: 4%;
+  left: 10%;
+}
+
+.banner-text
+{
+  text-align: center;
+  color: white;
+  padding: 250px;
+}
+
+.banner-text h1
+{
+  font-size: 130px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.banner-text p
+{
+  font-size: 30px;
+  font-style: italic;
+}
+
+.button
+{
+  margin: 70px;
+}
+
+.button a
+{
+  width: 150px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  margin: 0 55px;
+  padding: 12px 0;
+  box-shadow: 2px 2px 15px #000000;
+}
+
+.button a:hover
+{
+  color: rgb(47, 1, 1);
+}
+
+#navigation
+{
+  width: 200px;
+  height: 100vh;
+  position: fixed; 
+  right: -200px;
+  top: 0;
+  background: rgba(29, 37, 113, 0.98);
+  transition: 0.5s;
+}
+
+#navigation ul li
+{
+  list-style: none;
+  margin: 50px 20px;
+}
+
+#navigation ul li a
+{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+#navigation ul li a:hover
+{
+  color: rgba(195, 55, 99, 0.5);
+}
+
+#menubtn
+{
+  width: 50px;
+  height: 70px;
+  background: rgba(29, 37, 113, 0.98);
+  text-align: center;
+  position: fixed;
+  right: 30px;
+  top: 15px;
+  cursor: pointer;
+}  
+
+#menu
+{
+  width: 30px;
+  margin: 30px 10px 10px 10px;
+}
+
+/* first page */
+
+
+/* feature page */
+
+#feature
+{
+  width: 100%;
+  padding: 0;
+}
+
+#f-head
+{
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+#f-head p
+{
+  margin: auto;
+  font-size: 35px;
+  color: rgba(29, 37, 113, 0.98);
+  font-weight: bold;
+  position: relative;
+}
+
+#f-head h1
+{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#f-body
+{
+  width: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+#body
+{
+  flex-basis: 50%;
+ 
+}
+
+#body-img
+{
+  margin: auto;
+  flex-basis: 50%;
+  background: linear-gradient(rgba(195, 55, 99, 0.5),rgba(29, 37, 113, 0.98)), url("images/barber cutting hair.jpg");
+  height: 75vh;
+  
+}
+
+#body h1
+{
+  margin-left: 50px;
+  font-weight: bold;
+  color: rgba(29, 37, 113, 0.98);
+}
+
+#body p
+{
+  display: flex;
+  margin-left: 50px;
+  align-items: center;
+}
+/* feature page */
+
+
+/* services page */
+
+#service
+{
+  width: 100%;
+  padding: 70px 0;
+  background: grey;
+}
+
+.service-box
+{
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.single-service
+{ 
+  flex-basis: 48%;
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.single-service img
+{
+  width: 100%;
+  flex-basis: 50%;
+
+}
+
+
+/* services page */
+
+
+
+
+
+/* contact page */
+
+#footer
+{
+  padding: 100px 0 20px;
+  background: lightgray;
+}
+
+.footer-row
+{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.footer-left, .footer-right
+{
+  padding: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  
+}
+
+.footer-row h1
+{
+  margin: 10px 0;
+  color: rgba(29, 37, 113, 0.98);
+}
+
+.footer-row ul li
+{
+  line-height: 35px;
+}
+
+.footer-row hr
+{
+  border-width: 1.55px;
+}
+
+.social-img
+{
+  width: 10%;
+  text-align: center;
+  padding: 0 675px  0;
+}
+
+.social-img img
+{
+  height: 10%;
+  max-width: 100%;
+}
+
+
+/* contact page */
+
+
+html
+{
+  scroll-behavior: smooth;
+}

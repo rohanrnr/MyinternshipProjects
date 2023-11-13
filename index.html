@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Style Station</title>
+  <link rel="icon" href="images/fav.jpg" type="image/jpg">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<!--Code for first page-->
+
+  <div id="banner">
+    <img src="images/logo.png" class="logo">
+    <div class="banner-text">
+      <h1>Style Station</h1>
+      <p>Life Is Too Short To Have Bad Hair</p>
+      <div class="button">
+        <a href="#">Book Online</a>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+  </div>
+  <div id="navigation">
+    <ul>
+      <li><a href="#banner">HOME</a></li>
+      <li><a href="#feature">FEATURES</a></li>
+      <li><a href="#service">SERVICES</a></li>
+      <li><a href="#about">ABOUT US</a></li>
+      <li><a href="#footer">CONTACT</a></li>
+    </ul>
+  </div>
+  <div id="menubtn">
+    <img src="images/menu.png" id="menu">
+  </div>
+  
+
+  <!--Code for first page-->
+
+
+  <!--Code for feature page-->
+
+  <div id="feature">
+    <div id="f-head">
+    </br><p>FEATURES</p></br>
+      <h1>Why Choose Us ?</h1>
+    </div>
+    <div id="f-body">
+      <div id="body">
+        <h1>Experienced Staff</h1>
+        <p>We have full-time professional, ambitious, energetic, and experienced barbers</br>who enjoy a team atmosphere and offer excellent service.</p>
+        </br></br>
+        </br>
+        </br></br>
+        </br>
+        <h1>Pre Booking Online</h1>
+        <p>Limited Seats Available!! Hurry up and book your seat now.</p>
+        </br></br>
+        </br>
+        </br></br>
+        </br>
+        <h1>Affordable Price</h1>
+        <p>Price is what you pay. Value is what you get.</p>
+      </div>
+      <div id="body-img"></div>
+    </div>
+  </div>
+
+  <!--Code for feature page-->
+
+
+  <!--Code services page-->
+
+  <div id="service">
+    <div id="f-head">
+      <p>SERVICES</p></br>
+      <h1>We Provide Better</h1>
+    </div>
+    <div class="service-box">
+      <div class="single-service">
+        <div class="service-desc">
+          <h3>Hair Cutting</h3>
+          <hr>
+          <p>Cut your hair to make them stop & stare</p>
+        </div>
+        <img src="images/pic-1.jpg">
+      </div>
+      <div class="single-service">
+        <div class="service-desc">
+          <h3>Beard Trim</h3>
+          <hr>
+          <p>The scruffier your beard, the sharper you need to dress</p>
+        </div>
+        <img src="images/pic-2.jpg">
+      </div>
+    </div>
+    <div class="service-box">
+      <div class="single-service">
+        <div class="service-desc">
+          <h3>Hair Styling</h3>
+          <hr>
+          <p>A great hairstyle is the best accessory</p>
+        </div>
+        <img src="images/pic-3.jpg">
+      </div>
+      <div class="single-service">
+        <div class="service-desc">
+          <h3>Hair Washing</h3>
+          <hr>
+          <p>We want to wash your hair with a shampoo that smells like fruit</p>
+        </div>
+        <img src="images/pic-4.jpg">
+        
+      </div>
+    </div>
+
+  </div>
+
+
+  <!--Code for services page-->
+
+
+  <!--Code for about us page-->
+<div id="about">
+  <div id="f-head">
+      <p>ABOUT US</p><br>
+      <h1>Welcome to Style Station</h1>
+  </div>
+  <div id="f-body">
+      <div id="body">
+          <h1>Our Story</h1>
+          <p>Welcome to Style Station, where passion for hairstyling meets a commitment to providing exceptional service. Our journey began with a simple idea – to create a space where individuals can experience not just a haircut, but a personalized and transformative styling experience.</p>
+          <br><br>
+          <h1>Our Mission</h1>
+          <p>At Style Station, our mission is to inspire confidence and empower individuals through exceptional hairstyling. We believe that a great hairstyle has the power to boost self-esteem and enhance one's overall well-being. Our dedicated team of experienced barbers is committed to delivering top-notch service and creating a welcoming atmosphere for every client.</p>
+      </div>
+      <div id="body-img"></div>
+  </div>
+</div>
+<!--Code for about us page-->
+
+
+
+  <!--Code for contact page-->
+
+  <div id="footer">
+    <div id="f-head">
+      <p>CONTACT</p></br>
+      <h1>Visit Our Shop Today</h1>
+    </div>
+    <div class="footer-row">
+      <div class="footer-left">
+        <h1>Working Hours</h1>
+        <hr>
+        </br>
+        <ul>
+        <li>Monday to Friday    - 9am to 9pm</li>
+        <li>Saturday and Sunday - 8am to 11pm</li>
+        </ul>
+      </div>
+      <div class="footer-right">
+        <h1>Get In Touch With Us</h1>
+        <hr>
+        </br>
+        <ul>
+        <li>#000, n<sup>th</sup> road, p<sup>th</sup> layout, XYZ City</li>
+        <li>www.stylestation.com</li>
+        <li>stylestation@gmail.com</li>
+        <li>+91-0123456789</li>
+        </ul>
+      </div>
+    </div>
+    <div class="social-img">
+      <img src="images/social.png">
+    </div>
+  </div>
+
+
+
+  <!--Code for contact page-->
+
+
+
+  
+
+  <script>
+    var menubtn = document.getElementById('menubtn');
+    var navigation = document.getElementById('navigation');
+    var menu = document.getElementById('menu');
+
+    menubtn.onclick=function()
+    {
+      if(navigation.style.right=="-200px")
+      {
+        navigation.style.right="0";
+        menu.src="images/close.png";
+      }
+      else
+      {
+        navigation.style.right="-200px";
+        menu.src="images/menu.png";
+      }
+    }
+  </script>
+</body>
+</html>
